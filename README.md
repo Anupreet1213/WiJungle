@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# WiJungle Internship Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Important Note
 
-Currently, two official plugins are available:
+## Deployment Issue
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The deployed version of the project is hosted on a server with HTTPS enabled.
+- **Important:** The GeoLocation API does not support HTTPS servers, resulting in API calls failing when the project is accessed via the deployed HTTPS link.
+- To experience the full functionality of the project, it is recommended to run the application locally.
+- Unfortunately, this issue got detected after the deployment and due to time restrictions, I was not able to find a suitable replacement for the same api.
 
-## Expanding the ESLint configuration
+## Local Environment
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- The project is fully functional when run on a local environment.
+- All API calls to the WiJungle service work as expected when the application is executed locally.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Overview
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Welcome to the repository for my WiJungle Internship Assignment. This project is designed to demonstrate the implementation and functionality of a dashboard.
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/WiJungle-Internship-Assignment.git
+    cd WiJungle-Internship-Assignment
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running the Project Locally
+
+1. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+2. Open your browser and navigate to `http://localhost:5173`.
+
+

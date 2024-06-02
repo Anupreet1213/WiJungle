@@ -47,7 +47,7 @@ const MainContainer = () => {
   const IPs = uniqueIp.slice(0, 99);
   const IPs2 = uniqueIp2.slice(0, 99);
 
-  const endpoint = "http://ip-api.com/batch";
+  const endpoint = "http://ip-api.com/batch/";
 
   const fetchIpData = async () => {
     try {
